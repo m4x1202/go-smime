@@ -6,9 +6,9 @@ import (
 	"crypto/x509"
 	"time"
 
-	asn1 "github.com/InfiniteLoopSpace/go_S-MIME/asn1"
-	cms "github.com/InfiniteLoopSpace/go_S-MIME/cms/protocol"
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	asn1 "github.com/m4x1202/go-smime/asn1"
+	cms "github.com/m4x1202/go-smime/cms/protocol"
+	oid "github.com/m4x1202/go-smime/oid"
 )
 
 const (

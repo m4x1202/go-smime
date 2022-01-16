@@ -3,7 +3,7 @@ package protocol
 import (
 	"encoding/asn1"
 
-	asn "github.com/InfiniteLoopSpace/go_S-MIME/asn1"
+	asn "github.com/m4x1202/go-smime/asn1"
 )
 
 // RawValue marshals val and returns the asn1.RawValue

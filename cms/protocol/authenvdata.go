@@ -5,8 +5,8 @@ import (
 	"encoding/asn1"
 	"log"
 
-	asn "github.com/InfiniteLoopSpace/go_S-MIME/asn1"
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	asn "github.com/m4x1202/go-smime/asn1"
+	oid "github.com/m4x1202/go-smime/oid"
 )
 
 //AuthEnvelopedData ::= SEQUENCE {

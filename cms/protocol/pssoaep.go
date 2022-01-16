@@ -8,7 +8,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	oid "github.com/m4x1202/go-smime/oid"
 )
 
 type pssParameters struct {

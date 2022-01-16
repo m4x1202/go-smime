@@ -9,9 +9,9 @@ import (
 	"log"
 	"time"
 
-	protocol "github.com/InfiniteLoopSpace/go_S-MIME/cms/protocol"
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
-	timestamp "github.com/InfiniteLoopSpace/go_S-MIME/timestamp"
+	protocol "github.com/m4x1202/go-smime/cms/protocol"
+	oid "github.com/m4x1202/go-smime/oid"
+	timestamp "github.com/m4x1202/go-smime/timestamp"
 )
 
 // CMS is an instance of cms to en-/decrypt and sign/verfiy CMS data

@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"time"
 
-	asn "github.com/InfiniteLoopSpace/go_S-MIME/asn1"
-	cms "github.com/InfiniteLoopSpace/go_S-MIME/cms/protocol"
-	oid "github.com/InfiniteLoopSpace/go_S-MIME/oid"
+	asn "github.com/m4x1202/go-smime/asn1"
+	cms "github.com/m4x1202/go-smime/cms/protocol"
+	oid "github.com/m4x1202/go-smime/oid"
 )
 
 // TSTInfo ::= SEQUENCE  {
