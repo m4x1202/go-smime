@@ -252,11 +252,11 @@ func (smime *SMIME) Sign(msg []byte) (signedMsg []byte, err error) {
 	}
 	signedPart.SetHeaderField([]byte("Content-Type"), contentType[0])
 	contentTransferEncoding := mail.GetHeaderField([]byte("Content-Transfer-Encoding"))
-	if len(contentType) == 1 {
+	if len(contentTransferEncoding) == 1 {
 		signedPart.SetHeaderField([]byte("Content-Transfer-Encoding"), contentTransferEncoding[0])
 	}
 	contentDisposition := mail.GetHeaderField([]byte("Content-Disposition"))
-	if len(contentType) == 1 {
+	if len(contentDisposition) == 1 {
 		signedPart.SetHeaderField([]byte("Content-Disposition"), contentDisposition[0])
 	}
 
